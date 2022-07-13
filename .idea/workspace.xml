@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb95790a-b9ee-4225-b153-bb6e217da0af" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+    <list default="true" id="6f8b7bc9-e3d6-4226-9069-9d1a3c2ccf05" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Offline4/main/Math.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Offline4/main/MathTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/GradeCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Offline4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Offline4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Offline4/main/GradeCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Offline4/main/GradeCalculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Offline4/main/GradeException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Offline4/main/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Offline4/main/GradeCalculatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Offline4/main/GradeCalculatorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/GradeCalculator3Credit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GradeCalculator3Credit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/GradeCalculator4Credit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GradeCalculator4Credit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +22,6 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -28,7 +32,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2Br51LmhUGrtPjMk5EjUsW9zXHh" />
+  <component name="ProjectId" id="2BshixHo6bFx1p6jqtYt8j9SEYT" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -45,7 +49,7 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/User/Desktop/Studies/CSE308/Offlines/Offline4/lib&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
@@ -58,7 +62,69 @@
       <recent name="main" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.GradeCalculatorTest">
+    <configuration name="GradeCalculator3CreditTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Offline4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main" />
+      <option name="MAIN_CLASS_NAME" value="main.GradeCalculator3CreditTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GradeCalculator3CreditTest.negativeMarksExceptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Offline4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main" />
+      <option name="MAIN_CLASS_NAME" value="main.GradeCalculator3CreditTest" />
+      <option name="METHOD_NAME" value="negativeMarksExceptionTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GradeCalculatorTest$GradeCalculator3CreditTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Offline4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main.GradeCalculatorTest" />
+      <option name="MAIN_CLASS_NAME" value="main.GradeCalculatorTest$GradeCalculator3CreditTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GradeCalculatorTest$GradeCalculator3CreditTest.nonNumberMarksExceptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Offline4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main.GradeCalculatorTest" />
+      <option name="MAIN_CLASS_NAME" value="main.GradeCalculatorTest$GradeCalculator3CreditTest" />
+      <option name="METHOD_NAME" value="nonNumberMarksExceptionTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GradeCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Offline4" />
       <extension name="coverage">
@@ -77,35 +143,36 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.GradeCalculatorTest" />
+        <item itemvalue="JUnit.GradeCalculatorTest$GradeCalculator3CreditTest.nonNumberMarksExceptionTest" />
+        <item itemvalue="JUnit.GradeCalculatorTest$GradeCalculator3CreditTest" />
+        <item itemvalue="JUnit.GradeCalculator3CreditTest" />
+        <item itemvalue="JUnit.GradeCalculator3CreditTest.negativeMarksExceptionTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cb95790a-b9ee-4225-b153-bb6e217da0af" name="Changes" comment="" />
-      <created>1657651150503</created>
+      <changelist id="6f8b7bc9-e3d6-4226-9069-9d1a3c2ccf05" name="Changes" comment="" />
+      <created>1657700833714</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1657651150503</updated>
-      <workItem from="1657651153042" duration="630000" />
-      <workItem from="1657683687875" duration="1943000" />
-      <workItem from="1657696501661" duration="1534000" />
+      <updated>1657700833714</updated>
+      <workItem from="1657700836608" duration="33000" />
+      <workItem from="1657700880618" duration="2227000" />
+      <workItem from="1657727649379" duration="8268000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Offline4$GradeCalculatorTest.ic" NAME="GradeCalculatorTest Coverage Results" MODIFIED="1657736527640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>main.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Offline4$GradeCalculatorTest_GradeCalculator3CreditTest.ic" NAME="GradeCalculatorTest$GradeCalculator3CreditTest Coverage Results" MODIFIED="1657736227247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>main.*</FILTER>
+    </SUITE>
   </component>
 </project>

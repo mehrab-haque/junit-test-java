@@ -17,7 +17,6 @@ public class GradeCalculator {
     protected static final double MARKS_CREDIT_3_B_MAX=239;
     protected static final double MARKS_CREDIT_3_C_MIN=180;
     protected static final double MARKS_CREDIT_3_C_MAX=209;
-    protected static final double MARKS_CREDIT_3_F_MAX=179;
 
     //4 Credit marks ranges
     protected static final double MARKS_CREDIT_4_A_MIN=320;

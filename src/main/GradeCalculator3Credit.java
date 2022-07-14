@@ -19,8 +19,4 @@ public class GradeCalculator3Credit extends GradeCalculator{
         else return GradeCalculator.GRADE_F;
     }
 
-    @Test
-    public static void main(String[] args) {
-
-    }
 }

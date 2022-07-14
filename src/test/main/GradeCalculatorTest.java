@@ -49,6 +49,9 @@ public class GradeCalculatorTest {
         private static final String MARKS_GRADE_F_EDGE_LB="0.4";
         private static final String MARKS_GRADE_F="100";
         private static final String MARKS_GRADE_F_EDGE_UB="178.4";
+        private static final String MARKS_ZERO="0";
+        private static final String MARKS_NEGATIVE_EDGE="-0.1";
+        private static final String MARKS_INVALID_EDGE="400.1";
 
         @BeforeAll
         static void initialize(){
@@ -243,6 +246,48 @@ public class GradeCalculatorTest {
                 fail();
             }
         }
+
+        @Test
+        @DisplayName("Zero Marks Test (Extra Case)")
+        void zeroMarksTest() {
+            try{
+                char actual= gradeCalculator3Credit.calculateGrade(MARKS_ZERO);
+                char expected=GradeCalculator.GRADE_F;
+                assertEquals(expected,actual);
+            }catch(MarksException e){
+                fail();
+            }
+        }
+
+        @Test
+        @DisplayName("Negative Marks Boundary Test (Extra Case)")
+        void negativeMarksBoundTest() {
+            MarksException marksException=assertThrows(MarksException.class,()->{
+                gradeCalculator3Credit.calculateGrade(MARKS_NEGATIVE_EDGE);
+            });
+            if(marksException==null)
+                fail();
+            else{
+                String expectedMessage=GradeCalculator.ERROR_MSG_NEGATIVE_MARKS;
+                String actualMessage=marksException.getMessage();
+                assertEquals(expectedMessage,actualMessage);
+            }
+        }
+
+        @Test
+        @DisplayName("Grade F Marks Upper Boundary Test (Extra Case)")
+        void invalidMarksBoundTest() {
+            MarksException marksException=assertThrows(MarksException.class,()->{
+                gradeCalculator3Credit.calculateGrade(MARKS_INVALID_EDGE);
+            });
+            if(marksException==null)
+                fail();
+            else{
+                String expectedMessage=GradeCalculator.ERROR_MSG_INVALID_MARKS;
+                String actualMessage=marksException.getMessage();
+                assertEquals(expectedMessage,actualMessage);
+            }
+        }
     }
 
     @org.junit.jupiter.api.Nested
@@ -280,6 +325,9 @@ public class GradeCalculatorTest {
         private static final String MARKS_GRADE_F="100";
         private static final String MARKS_GRADE_F_EDGE_UB="238.4";
 
+        private static final String MARKS_ZERO="0";
+        private static final String MARKS_NEGATIVE_EDGE="-0.1";
+        private static final String MARKS_INVALID_EDGE="400.1";
         @BeforeAll
         static void initialize(){
             gradeCalculator4Credit=new GradeCalculator4Credit();
@@ -471,6 +519,48 @@ public class GradeCalculatorTest {
                 assertEquals(expected,actual);
             }catch(MarksException e){
                 fail();
+            }
+        }
+
+        @Test
+        @DisplayName("Zero Marks Test (Extra Case)")
+        void zeroMarksTest() {
+            try{
+                char actual= gradeCalculator4Credit.calculateGrade(MARKS_ZERO);
+                char expected=GradeCalculator.GRADE_F;
+                assertEquals(expected,actual);
+            }catch(MarksException e){
+                fail();
+            }
+        }
+
+        @Test
+        @DisplayName("Negative Marks Boundary Test (Extra Case)")
+        void negativeMarksBoundTest() {
+            MarksException marksException=assertThrows(MarksException.class,()->{
+                gradeCalculator4Credit.calculateGrade(MARKS_NEGATIVE_EDGE);
+            });
+            if(marksException==null)
+                fail();
+            else{
+                String expectedMessage=GradeCalculator.ERROR_MSG_NEGATIVE_MARKS;
+                String actualMessage=marksException.getMessage();
+                assertEquals(expectedMessage,actualMessage);
+            }
+        }
+
+        @Test
+        @DisplayName("Grade F Marks Upper Boundary Test (Extra Case)")
+        void invalidMarksBoundTest() {
+            MarksException marksException=assertThrows(MarksException.class,()->{
+                gradeCalculator4Credit.calculateGrade(MARKS_INVALID_EDGE);
+            });
+            if(marksException==null)
+                fail();
+            else{
+                String expectedMessage=GradeCalculator.ERROR_MSG_INVALID_MARKS;
+                String actualMessage=marksException.getMessage();
+                assertEquals(expectedMessage,actualMessage);
             }
         }
     }
